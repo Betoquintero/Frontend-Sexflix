@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 export default function Question1() {
   return (
     <>
-    <div>Love Language</div>
-    <Link to={`/question2`}><button>Option 1</button></Link>
-    <Link to={`/question2`}><button>Option 2</button></Link>
-    <Link to={`/question2`}><button>Option 3</button></Link>
+    <h2>Love Language</h2>
+    <Link to={`/question2`}><button className="button">Presents</button></Link>
+    <Link to={`/question2`}><button className="button">Touch</button></Link>
+    <Link to={`/question2`}><button className="button">Quality time</button></Link>
     
     
     </>

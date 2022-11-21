@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Question2() {
+export default function Question3() {
   return (
     <>
-    <div>Love Language</div>
-    <Link to={`/question3`}><button>Option 1</button></Link>
-    <Link to={`/question3`}><button>Option 2</button></Link>
-    <Link to={`/question3`}><button>Option 3</button></Link>
+    <h2>Relantionship Status</h2>
+    <Link to={`/question3`}><button className="button">Single</button></Link>
+    <Link to={`/question3`}><button className="button">Married</button></Link>
+    <Link to={`/question3`}><button className="button">Complicated</button></Link>
     </>
   )
 }
