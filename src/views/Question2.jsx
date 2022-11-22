@@ -26,7 +26,7 @@ export default function Question2() {
       <Link to={`/question3`}>
         <button className="round-button">
           <div className='round-button-circle'>
-            <span className='round-button'>Private</span>
+            <span className='round-button'>Other</span>
           </div>
         </button>      
       </Link>
