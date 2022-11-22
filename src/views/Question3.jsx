@@ -7,21 +7,21 @@ export default function Question3() {
     <div className='button-container'>
     <h2>Relationship Status</h2>
 
-    <Link to={`/preactivity`}>
+    <Link className='links' to={`/preactivity`}>
         <button className="button">
           
             <span className='button'>Single</span>
           
         </button>      
       </Link>
-      <Link to={`/preactivity`}>
+      <Link className='links' to={`/preactivity`}>
         <button className="button">
           
             <span className='button'>Married</span>
           
         </button>      
       </Link>
-      <Link to={`/preactivity`}>
+      <Link className='links' to={`/preactivity`}>
         <button className="button">
           
             <span className='button'>Complicated</span>

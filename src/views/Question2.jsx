@@ -7,7 +7,7 @@ export default function Question2() {
     <div className='button-container'>
     <h2>Gender</h2>
 
-    <Link to={`/question3`}>
+    <Link className='links' to={`/question3`}>
         <button className="round-button">
           <div className='round-button-circle'>
             <span className='round-button'>Male</span>
@@ -15,7 +15,7 @@ export default function Question2() {
         </button>      
       </Link>
 
-      <Link to={`/question3`}>
+      <Link className='links' to={`/question3`}>
         <button className="round-button">
           <div className='round-button-circle'>
             <span className='round-button'>Female</span>
@@ -23,7 +23,7 @@ export default function Question2() {
         </button>      
       </Link>
 
-      <Link to={`/question3`}>
+      <Link className='links' to={`/question3`}>
         <button className="round-button">
           <div className='round-button-circle'>
             <span className='round-button'>Other</span>

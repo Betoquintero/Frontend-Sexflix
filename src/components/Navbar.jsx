@@ -10,9 +10,9 @@ export default function Navbar() {
       {user && <p>Hello {user.username}</p> }
       <div className="nav">
         <ul>
-          <li><NavLink className={(element) => element.isActive ? 'selected' : ''} to="/">Home</NavLink></li>
-          {!isLoggedIn && <li><NavLink className={(element) => element.isActive ? 'selected' : ''} to="/signup">Sign up</NavLink></li>}
-          {!isLoggedIn && <li><NavLink className={(element) => element.isActive ? 'selected' : ''} to="/login">Login</NavLink></li>}
+          <li><NavLink className={(element) => element.isActive ? 'selected' : 'links'} to="/">Home</NavLink></li>
+          {!isLoggedIn && <li><NavLink className={(element) => element.isActive ? 'selected' : 'links'} to="/signup">Sign up</NavLink></li>}
+          {!isLoggedIn && <li><NavLink className={(element) => element.isActive ? 'selected' : 'links'} to="/login">Login</NavLink></li>}
           {isLoggedIn && <li><NavLink className={(element) => element.isActive ? 'selected' : ''} to="/private">Private view</NavLink></li>}
           {isLoggedIn && <li><button onClick={() => logOutUser()}>Log out</button></li>}
           <li><button className='back-button' onClick={() => navigate(-1)}>Go back</button></li>

@@ -9,14 +9,14 @@ export default function Activity() {
     <div className='button-container'>
     <h2>Fantasize with your partner about what you would like to do</h2>
 
-    <Link to={`/activity2a`}>
+    <Link className='links' to={`/activity2a`}>
         <button className="button">
           
             <span className='button'>Let's do it!</span>
           
         </button>      
       </Link>
-      <Link to={`/activity2a`}>
+      <Link className='links' to={`/activity2a`}>
         <button className="button">
           
             <span className='button'>No way!</span>

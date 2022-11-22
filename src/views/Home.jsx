@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1 className='title-header'>QUINKY</h1>
       <div className='button-container'>
-      <Link to={`/question1`}>
+      <Link className='links' to={`/question1`}>
         <button className="button">
           
             <span className='button'>Let's play!</span>
