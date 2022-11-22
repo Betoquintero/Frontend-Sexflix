@@ -5,7 +5,7 @@
 .body {
   padding: 0;
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -52,5 +52,13 @@
   padding: 70px;
   border-radius: 50%;
   margin-top: 15px;
-  border-width: 0px;  
+  border-width: 0px;
 }
+
+/* centrar botones (
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ */

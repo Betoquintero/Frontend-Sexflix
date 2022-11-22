@@ -11,6 +11,7 @@ import Question2 from './views/Question2'
 import Question3 from './views/Question3'
 import PrivateView from './views/PrivateView';
 import IsPrivate from './components/IsPrivate';
+import Activity from "./views/Activity"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/question1" element={<Question1 />} />
           <Route path="/question2" element={<Question2 />} />
           <Route path="/question3" element={<Question3 />} />
+          <Route path="/activity" element={<Activity />} />
           <Route path="/private" element={<IsPrivate><PrivateView/></IsPrivate>}/>
           <Route path="*" element={<ErrorPage />} />
         </Routes>
