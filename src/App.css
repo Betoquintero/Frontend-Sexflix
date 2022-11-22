@@ -6,15 +6,28 @@
   padding: 0;
   margin: 0;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
-  background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(250,70,252,1) 100%);
-  
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 45, 168, 1) 100%
+  );
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  -webkit-text-stroke: 2px rgb(27, 189, 192);
+  color: transparent;
+  color: rgb(223, 237, 242);
+  letter-spacing: 18px;
 }
 
 .container {
   padding: 10%;
   min-height: 90vh;
-  
 }
 
 .selected {
@@ -25,16 +38,18 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(250,70,252,1) 100
   /* overflow: hidden; */
   display: block;
   position: sticky;
+  opacity: calc(0.7);
   bottom: 0;
   width: 100vw;
   padding: 5px 0;
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,119,1) 50%, rgba(252,176,69,1) 100%);}
+  background: rgb(27, 189, 192);
+}
 
 .nav ul {
   display: flex;
   justify-content: space-evenly;
   padding-inline-start: 0;
+  color: black;
 }
 
 .nav ul li {
@@ -42,48 +57,71 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(250,70,252,1) 100
 }
 
 .nav ul li a:hover {
-  background-color: rgb(161, 161, 161);
+  background-color: rgba(253, 45, 168, 1) 100%;
+  color: black;
 }
 
 .button-container {
-  width:600px;
-  border:1px;
+  width: 600px;
+  border: 1px;
+}
+
+.button-container > h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container > span {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .round-button {
-  width:25%;
-  outline:none;
+  width: 25%;
+  outline: none;
   background: none;
-  border:0;
-  margin:.5em;
+  border: 0;
+  margin: 0.5em;
+  color: white;
 }
 .round-button-circle {
   width: 100%;
-  height:0;
+  height: 0;
   padding-bottom: 100%;
-    border-radius: 50%;
-  border:10px solid #cfdcec;
-    overflow:hidden;
-    
-    background: #4679BD; 
-    box-shadow: 0 0 3px gray;
+  border-radius: 50%;
+  border: 10px solid #cfdcec;
+  overflow: hidden;
+
+  background: #4d8bc5;
+  box-shadow: 0 0 3px gray;
 }
 .round-button-circle:hover {
-  background:#30588e;
+  background: rgb(63, 196, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 196, 251, 1) 0%,
+    rgba(250, 70, 252, 1) 100%
+  );
 }
-.round-button a, .round-button span {
-    display:block;
-  float:left;
-  width:100%;
-  padding-top:50%;
-    padding-bottom:50%;
-  line-height:1em;
-  margin-top:-0.5em;
-    
-  text-align:center;
-  color:#e2eaf3;
-    font-family:Verdana;
-    font-size:1.1em;
-    font-weight:bold;
-    text-decoration:none;
+.round-button a,
+.round-button span {
+  display: block;
+  float: left;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  line-height: 1em;
+  margin-top: -0.5em;
+
+  text-align: center;
+  color: #e2eaf3;
+  font-family: Verdana;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
 }

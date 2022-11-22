@@ -7,8 +7,8 @@ export default function Activity1() {
   return (
     <>
     
-    <h2>You've done all of our activities</h2>
     <div className='button-container'>
+    <h2>You've done all of our activities</h2>
     <Link to={`/`}>
         <button className="round-button">
           <div className='round-button-circle'>
