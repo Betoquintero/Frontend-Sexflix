@@ -10,17 +10,17 @@ export default function Activity1() {
     <h2>Prepare your partner a fancy dinner with a spicy dessert</h2>
 
     <Link to={`/endofactivities`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>Let's do it!</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>Let's do it!</span>
+          
         </button>      
       </Link>
       <Link to={`/endofactivities`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>No way!</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>No way!</span>
+          
         </button>      
       </Link>
     </div>

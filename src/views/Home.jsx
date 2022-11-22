@@ -7,10 +7,10 @@ export default function Home() {
       <h1 className='title-header'>QUINKY</h1>
       <div className='button-container'>
       <Link to={`/question1`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>Let's play!</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>Let's play!</span>
+          
         </button>      
       </Link>
       </div>

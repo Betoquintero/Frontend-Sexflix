@@ -8,24 +8,24 @@ export default function Question1() {
     <div className='button-container'> 
     <h2>Love Language</h2>     
       <Link to={`/question2`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>Presents</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>Presents</span>
+          
         </button>      
       </Link>
       <Link to={`/question2`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>Touch</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>Touch</span>
+          
         </button>      
       </Link>
       <Link to={`/question2`}>
-        <button className="round-button">
-          <div className='round-button-circle'>
-            <span className='round-button'>Quality time</span>
-          </div>
+        <button className="button">
+          
+            <span className='button'>Quality time</span>
+          
         </button>      
       </Link>
     </div>
