@@ -10,9 +10,21 @@ export default function Activity1() {
 
   
     <h2>Make a sensual massage to your partner</h2>
-    <Link to={`/activity1a`}><button className="button">Let's do it!</button></Link>
+    <Link to={`/activity1a`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Let's do it!</span>
+          </div>
+        </button>      
+      </Link>
+      <Link to={`/activity1a`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>No way!</span>
+          </div>
+        </button>      
+      </Link>
     
-    <Link to={`/activity1b`}><button className="button">No way!</button></Link>
     </div>
     </>
   )

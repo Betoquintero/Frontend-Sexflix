@@ -5,7 +5,15 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to Sexflix</h1>
-      <Link to={`/question1`}><button className="button">Let's get started</button></Link>
+      <div className='button-container'>
+      <Link to={`/question1`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Let's get started!</span>
+          </div>
+        </button>      
+      </Link>
+      </div>
     </div>
   )
 }

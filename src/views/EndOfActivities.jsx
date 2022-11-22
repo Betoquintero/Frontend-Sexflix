@@ -8,9 +8,22 @@ export default function Activity1() {
     <>
     
     <h2>You've done all of our activities</h2>
-    <Link to={`/`}><button className="button">Take me home!</button></Link>
-    <Link to={`/activity2`}><button className="button">Show me more</button></Link>
-    
+    <div className='button-container'>
+    <Link to={`/`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Take me home!</span>
+          </div>
+        </button>      
+      </Link>
+      <Link to={`/activity2`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Show me more</span>
+          </div>
+        </button>      
+      </Link>
+    </div>
     </>
   )
 }

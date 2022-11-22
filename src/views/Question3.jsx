@@ -7,9 +7,27 @@ export default function Question3() {
     <div className='button-container'>
     <h2>Relationship Status</h2>
 
-    <Link to={`/preactivity`}><button className="button">Single</button></Link>
-    <Link to={`/preactivity`}><button className="button">Married</button></Link>
-    <Link to={`/preactivity`}><button className="button">Complicated</button></Link>
+    <Link to={`/preactivity`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Single</span>
+          </div>
+        </button>      
+      </Link>
+      <Link to={`/preactivity`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Married</span>
+          </div>
+        </button>      
+      </Link>
+      <Link to={`/preactivity`}>
+        <button className="round-button">
+          <div className='round-button-circle'>
+            <span className='round-button'>Complicated</span>
+          </div>
+        </button>      
+      </Link>
     </div>
     </>
   )
